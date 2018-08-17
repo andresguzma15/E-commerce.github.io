@@ -90,6 +90,8 @@
             </div>
             </div>
 
+            <!--carousel-->
+
             <div class="col-md-9">
 
                 <div class="row carousel-holder">
@@ -123,6 +125,7 @@
 
                 </div>
 
+                <!--catalogo-->
                 <div class="row">
 
                     <div class="col-sm-4 col-lg-4 col-md-4 col-xs-6">
@@ -130,14 +133,14 @@
                             <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="">
                             <div class="caption">
             
-                                <h4><a href="#">T-shir air</a>
+                                <h4><a>T-shir air</a>
                                 </h4>
                                 <p>Algo bien kasual.</p>
                             </div>
                             <div class="ratings">
                                 <button type="button" class="btn btn-primary">
                                     <span class="glyphicon glyphicon-shopping-cart pull-right"></span>$350 </button>
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#flipFlop">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#shirt-1">Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -154,7 +157,7 @@
                             <div class="ratings">
                                 <button type="button" class="btn btn-primary">
                                     <span class="glyphicon glyphicon-shopping-cart pull-right"></span>$298 </button>
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#flipFlop">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#shirt-2">Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -171,7 +174,7 @@
                             <div class="ratings">
                                 <button type="button" class="btn btn-primary">
                                     <span class="glyphicon glyphicon-shopping-cart pull-right"></span>$60 </button>
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#flipFlop">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#shirt-3">Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -188,7 +191,7 @@
                             <div class="ratings">
                                 <button type="button" class="btn btn-primary">
                                     <span class="glyphicon glyphicon-shopping-cart pull-right"></span>$90 </button>
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#flipFlop">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#shirt-4">Detalles</button>
                             </div>
                         </div>
                     </div>
@@ -205,7 +208,7 @@
                             <div class="ratings">
                                 <button type="button" class="btn btn-primary">
                                     <span class="glyphicon glyphicon-shopping-cart pull-right"></span>$59,99 </button>
-                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#flipFlop">Detalles</button>
+                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#shirt-5">Detalles</button>
                                 </p>
                             </div>
                         </div>
@@ -223,7 +226,7 @@
 
 
     <!-- The modal -->
-    <div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="shirt-1" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -232,6 +235,8 @@
                     </button>
                     <h2 class="modal-title" id="modalLabel">T-shir air</h2>
                 </div>
+
+                <!--modal body-->
                 <div class="modal-body">
                     <div class="alert alert-info" role="alert">Este producto esta en shock
                     </div>
@@ -268,18 +273,344 @@
                                 </div>
                             </div>
                         </div>
-		                <ul class="nav nav-tabs">
-		                    <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
-		                    <li><a href="#about" data-toggle="tab">About</a></li>
-		                    <li><a href="#services" data-toggle="tab">Services</a></li>
-		                    <li><a href="#contact" data-toggle="tab">Contact</a></li>
-		                </ul>
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                          <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="description" class="tab-pane fade in active">
+                            <br>
+                            <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          </div>
+                          <div id="comentarios" class="tab-pane fade">
+                            <br>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">Banano06 comentó</div>
+                              <div class="panel-body">Quiero esa camisa, YA!!!</div>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                          </div>
+                        </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">comprar</button>
             </div>
         </div>
     </div>
+
+        <!-- The modal -->
+    <div class="modal fade" id="shirt-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-title" id="modalLabel">Dinamica</h2>
+                </div>
+
+                <!--modal body-->
+                <div class="modal-body">
+                    <div class="alert alert-info" role="alert">Este producto esta en shock
+                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-8">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-2.jpg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-xs-8">
+                                <div class="">
+                                    <p>Precio: <b>$298</b></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>Calificación: 
+                                        <b>
+                                            <small class="text-muted">
+                                                <span class="glyphicon glyphicon-star"></spanspan>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star-empty"></span>
+                                                <span class="glyphicon glyphicon-star-empty"></span>
+                                            </small>
+                                        </b>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="label label-default">hipster</span>
+                                    <span class="label label-warning">casual</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="text-primary">
+                                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Agregar a los deseos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                          <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="description" class="tab-pane fade in active">
+                            <br>
+                            <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          </div>
+                          <div id="comentarios" class="tab-pane fade">
+                            <br>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">Banano06 comentó</div>
+                              <div class="panel-body">Quiero esa camisa, YA!!!</div>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">comprar</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- The modal -->
+    <div class="modal fade" id="shirt-3" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-title" id="modalLabel">T-shir air</h2>
+                </div>
+
+                <!--modal body-->
+                <div class="modal-body">
+                    <div class="alert alert-info" role="alert">Este producto esta en shock
+                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-8">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-xs-8">
+                                <div class="">
+                                    <p>Precio: <b>$350</b></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>Calificación: 
+                                        <b>
+                                            <small class="text-muted">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star-empty"></span>
+                                            </small>
+                                        </b>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="label label-default">hipster</span>
+                                    <span class="label label-warning">casual</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="text-primary">
+                                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Agregar a los deseos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                          <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="description" class="tab-pane fade in active">
+                            <br>
+                            <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          </div>
+                          <div id="comentarios" class="tab-pane fade">
+                            <br>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">Banano06 comentó</div>
+                              <div class="panel-body">Quiero esa camisa, YA!!!</div>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">comprar</button>
+            </div>
+        </div>
+    </div>
+
+            <!-- The modal -->
+    <div class="modal fade" id="shirt-4" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-title" id="modalLabel">T-shir air</h2>
+                </div>
+
+                <!--modal body-->
+                <div class="modal-body">
+                    <div class="alert alert-info" role="alert">Este producto esta en shock
+                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-8">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-xs-8">
+                                <div class="">
+                                    <p>Precio: <b>$350</b></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>Calificación: 
+                                        <b>
+                                            <small class="text-muted">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star-empty"></span>
+                                            </small>
+                                        </b>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="label label-default">hipster</span>
+                                    <span class="label label-warning">casual</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="text-primary">
+                                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Agregar a los deseos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                          <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="description" class="tab-pane fade in active">
+                            <br>
+                            <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          </div>
+                          <div id="comentarios" class="tab-pane fade">
+                            <br>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">Banano06 comentó</div>
+                              <div class="panel-body">Quiero esa camisa, YA!!!</div>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">comprar</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- The modal -->
+    <div class="modal fade" id="shirt-5" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h2 class="modal-title" id="modalLabel">T-shir air</h2>
+                </div>
+
+                <!--modal body-->
+                <div class="modal-body">
+                    <div class="alert alert-info" role="alert">Este producto esta en shock
+                    </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-8">
+                                <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" alt="">
+                            </div>
+                            <div class="col-xs-6 col-xs-8">
+                                <div class="">
+                                    <p>Precio: <b>$350</b></p>
+                                </div>
+                                <div class="card-footer">
+                                    <p>Calificación: 
+                                        <b>
+                                            <small class="text-muted">
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                <span class="glyphicon glyphicon-star-empty"></span>
+                                            </small>
+                                        </b>
+                                    </p>
+                                </div>
+                                <div>
+                                    <span class="label label-default">hipster</span>
+                                    <span class="label label-warning">casual</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="text-primary">
+                                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Agregar a los deseos
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-tabs">
+                          <li class="active"><a data-toggle="tab" href="#description">Descripción</a></li>
+                          <li><a data-toggle="tab" href="#comentarios">Comentarios</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                          <div id="description" class="tab-pane fade in active">
+                            <br>
+                            <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          </div>
+                          <div id="comentarios" class="tab-pane fade">
+                            <br>
+                            <div class="panel panel-default">
+                              <div class="panel-heading">Banano06 comentó</div>
+                              <div class="panel-body">Quiero esa camisa, YA!!!</div>
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" rows="3" id="comment"></textarea>
+                            </div>
+                          </div>
+                        </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">comprar</button>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
