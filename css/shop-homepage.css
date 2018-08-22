@@ -60,3 +60,7 @@ body {
 footer {
     margin: 50px 0;
 }
+
+#shirt1 {
+    border: 1px solid #ddd;
+} 
